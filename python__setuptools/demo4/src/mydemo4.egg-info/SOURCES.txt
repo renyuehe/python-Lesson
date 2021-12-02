@@ -1,0 +1,8 @@
+setup.py
+src/demo4/__init__.py
+src/demo5/__init__.py
+src/demo6/__init__.py
+src/mydemo4.egg-info/PKG-INFO
+src/mydemo4.egg-info/SOURCES.txt
+src/mydemo4.egg-info/dependency_links.txt
+src/mydemo4.egg-info/top_level.txt

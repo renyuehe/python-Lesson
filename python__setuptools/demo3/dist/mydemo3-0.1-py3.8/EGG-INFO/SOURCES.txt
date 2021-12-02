@@ -1,0 +1,7 @@
+setup.py
+src/demo3/__init__.py
+src/mydemo3.egg-info/PKG-INFO
+src/mydemo3.egg-info/SOURCES.txt
+src/mydemo3.egg-info/dependency_links.txt
+src/mydemo3.egg-info/entry_points.txt
+src/mydemo3.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+setup.py
+src/UNKNOWN.egg-info/PKG-INFO
+src/UNKNOWN.egg-info/SOURCES.txt
+src/UNKNOWN.egg-info/dependency_links.txt
+src/UNKNOWN.egg-info/top_level.txt
+src/mydemo_up/123.txt
+src/mydemo_up/__init__.py
+src/mydemo_up/data/aaa.dat
+src/mydemo_up/data/bbb.dat

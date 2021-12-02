@@ -1,0 +1,72 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>666100fc-26bd-49b3-826a-d948ddc5afa6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonStudy</Name>
+    <RootNamespace>PythonStudy</RootNamespace>
+    <InterpreterId>Global|ContinuumAnalytics|Anaconda37-64</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="call行为.py" />
+    <Compile Include="dict操作.py" />
+    <Compile Include="list操作.py" />
+    <Compile Include="matrix.py" />
+    <Compile Include="set操作.py" />
+    <Compile Include="tuple操作.py" />
+    <Compile Include="函数.py" />
+    <Compile Include="列表嵌套与切片.py" />
+    <Compile Include="列表推导式.py" />
+    <Compile Include="变量与类型.py" />
+    <Compile Include="字符串操作.py" />
+    <Compile Include="属性.py" />
+    <Compile Include="循环中断命令.py" />
+    <Compile Include="循环控制语句.py" />
+    <Compile Include="数学运算符.py" />
+    <Compile Include="条件判断语句.py" />
+    <Compile Include="构造函数.py" />
+    <Compile Include="模块.py" />
+    <Compile Include="比较运算符.py" />
+    <Compile Include="注释.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="类和对象.py" />
+    <Compile Include="类型转换.py" />
+    <Compile Include="组合.py" />
+    <Compile Include="继承.py" />
+    <Compile Include="行为.py" />
+    <Compile Include="行为返回值.py" />
+    <Compile Include="赋值运算符.py" />
+    <Compile Include="身份运算符.py" />
+    <Compile Include="运算符重载.py" />
+    <Compile Include="逻辑运算符.py" />
+    <Compile Include="集合创建.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
