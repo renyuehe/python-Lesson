@@ -24,4 +24,3 @@ if __name__ == "__main__":
 	cls.param = 10
 	print("current param : %s " % cls.param )
 	del cls.param
-    
